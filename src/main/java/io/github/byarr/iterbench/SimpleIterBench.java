@@ -9,7 +9,7 @@ import org.openjdk.jmh.infra.Blackhole;
 @State(Scope.Benchmark)
 public class SimpleIterBench {
 
-    @Param({"1", "100", "10000", "1000000"})
+    @Param({"10", "100", "1000", "10000"})
     private int numIterations;
 
     @Benchmark
