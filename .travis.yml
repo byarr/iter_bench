@@ -4,4 +4,4 @@ jdk:
 
 script:
 - mvn install
-- java -jar target/benchmarks.jar
+- java -jar target/benchmarks.jar -f 3 -i 10 -wi 5
